@@ -1,0 +1,32 @@
+{
+  "name": "js-pattern",
+  "version": "0.1.0",
+  "description": "  Some example Design Pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ximet/js-pattern.git"
+  },
+  "author": "ximet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ximet/js-pattern/issues"
+  },
+  "homepage": "https://github.com/ximet/js-pattern#readme",
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "webpack": "~1.10.0"
+  },
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
